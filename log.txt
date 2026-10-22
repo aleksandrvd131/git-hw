@@ -1,0 +1,72 @@
+*   3586692 (HEAD -> main) Merge remote-tracking branch 'origin/main'
+|\  
+| *   c11d100 (origin/main, origin/HEAD) Merge pull request #1 from aleksandrvd131/feature-a
+| |\  
+| | *   bc60bce Merge branch 'main' into feature-a
+| | |\  
+| | |/  
+| |/|   
+| | * 6af4404 feature-a: добавить содержание 4-ой строки
+| | * df52c1a feature-a: добавить содержание 3-ей строки"
+| | * 7ab7b75 initial commit v2
+* | |   9526d27 Merge branch 'feature-b'
+|\ \ \  
+| * | | af35545 изменение 4 строки в ветку б
+| * | | 6da85f1 feature-b: добавить содержание 3-ей строки
+* | | | 78fc891 изменение 4 строки в мейн
+|/ / /  
+* / / 567efb8 feature-a: добавить содержание 4-ой строки
+|/ /  
+* / 1a5009c Update README.md
+|/  
+* 7c2400a Initial commit
+git-hw main ? ❯ git log
+commit 3586692fda74862a7157106ecc6a6c9ebb149ca7 (HEAD -> main)
+Merge: 9526d27 c11d100
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Fri Oct 23 00:04:59 2026 +0300
+
+    Merge remote-tracking branch 'origin/main'
+
+    # Conflicts:
+    #       README.md
+
+commit 9526d2792ea4b6fcabce3c73114e22a10ac8fe42
+Merge: 78fc891 af35545
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Fri Oct 23 00:02:35 2026 +0300
+
+    Merge branch 'feature-b'
+
+    # Conflicts:
+    #       README.md
+
+commit af3554589e367460922c21866fbca7d760f8c225
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Fri Oct 23 00:00:38 2026 +0300
+
+    изменение 4 строки в ветку б
+
+commit 78fc8917624ba5dff3accacbe8576809a33f49a0
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Thu Oct 22 23:59:57 2026 +0300
+
+    изменение 4 строки в мейн
+
+commit 6da85f182acd1b1ea56b18a19851b843b2d27a9c
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Thu Oct 22 23:43:15 2026 +0300
+
+    feature-b: добавить содержание 3-ей строки
+
+commit c11d10047ba7966ff8364f49b850cc1cda20b5e2 (origin/main, origin/HEAD)
+Merge: 1a5009c bc60bce
+Author: aleksandrvd131 <aleksandr.vedyshev@gmail.com>
+Date:   Thu Oct 22 23:47:11 2026 +0300
+
+    Merge pull request #1 from aleksandrvd131/feature-a
+
+    Feature a
+
+commit bc60bce31ca6fab0d7a1ee0e310f6960e47f796f
+Merge: 6af4404 1a5009c
